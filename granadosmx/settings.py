@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'productos',
 ]
 
 MIDDLEWARE = [
@@ -116,6 +117,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+    #por que no lo encontraba en app sales/static/sales/home.js
+    BASE_DIR / 'productos' / 'templates',
+    #BASE_DIR / 'reports' / 'static'
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
