@@ -1,49 +1,32 @@
 {% load static %}
-
 {% url 'productos:productos' as productos %}
-
-<nav class="dots m-1 mt-3 navbar navbar-expand-lg navbar-light bg-light">
-
-    <div class="dots m-1 container-fluid">
-
-        <a class="dots m-1 navbar-brand" href="{{productos}}"><img src="{% static 'logo.png' %}" class="logo-sm"></a>
-
-        <div class="dots m-1 collapse navbar-collapse" id="navbarNav">
-
-            <ul class="dots m-1 navbar-nav">
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link {% if request.path == productos %} active {% endif %} " href="{{productos}}">Productos</a>
+<nav class="gris navbar navbar-expand-lg navbar-light bg-light">
+    <div class="azul container-fluid">
+        <a class="rojo navbar-brand" href="{{productos}}"><img src="{% static 'logo.png' %}" class="logo-sm"></a>
+        <div class="verde collapse navbar-collapse" id="navbarNav">
+            <ul class="morado navbar-nav">
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link {% if request.path == productos %} active {% endif %} " href="{{productos}}">Productos</a>
                 </li>
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link" href="">Otros</a>
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link" href="">Otros</a>
                 </li>
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link" href="">Otros</a>
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link" href="">Otros</a>
                 </li>
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link" href="">Otros</a>
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link" href="">Otros</a>
                 </li>
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link" href="">Otros</a>
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link" href="">Otros</a>
                 </li>
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link" href="">Otros</a>
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link" href="">Otros</a>
                 </li>
-
-                <li class="dots m-1 nav-item">
-                    <a class="dots m-1 nav-link" href="">Otros</a>
+                <li class="rosa nav-item">
+                    <a class="negro color nav-link" href="">Otros</a>
                 </li>
-
             </ul>
-
         </div>
-
     </div>
-
 </nav>

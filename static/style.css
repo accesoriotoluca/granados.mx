@@ -1,15 +1,25 @@
-.logo-sm {
+body {
 
+ background-color: rgb(93, 93, 93);
+
+}
+
+/* .logo-sm {
     height: 45px ;
     width: auto ;
-
 }
 
-.dots {
+.amarillo {margin: 3px; border: 1px dashed rgb(255, 242, 0)}
+.gris {margin: 3px; border: 1px dashed rgb(118, 118, 118)}
+.azul {margin: 3px; border: 1px dashed rgb(0, 38, 255)}
+.rojo {margin: 3px; border: 1px dashed rgb(255, 0, 0)}
+.verde {margin: 3px; border: 1px dashed rgb(76, 254, 0)}
+.morado {margin: 3px; border: 1px dashed rgb(179, 0, 255)}
+.rosa {margin: 3px; border: 1px dashed rgb(255, 0, 191)} */
 
-    border: 1px dotted black;
-    
-}
+/* .color {
+    color: white
+} */
 
 /*
 .not_visible{
@@ -17,9 +27,9 @@
 }
 
 .dz {
-    border-style: dashed;
-    border-radius: 5px;
-    border-color: #ddd;
+    margin: 3px; border-style: dashed;
+    margin: 3px; border-radius: 5px;
+    margin: 3px; border-color: #ddd;
     transition: .5s;
 }
 
@@ -30,13 +40,13 @@
 .avatar-sm {
     height: 40px;
     width: 40px;
-    border-radius: 50%;
+    margin: 3px; border-radius: 50%;
 }
 
 .avatar-big {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    margin: 3px; border-radius: 50%;
 }
 
 .logo-sm {
