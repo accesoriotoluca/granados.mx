@@ -1,14 +1,20 @@
 {% extends 'base.html' %}
+{% load static %}
 
+{% block title %} Productos {% endblock title %}
 
-{% block title %} 
+{% block css %}
 
-    Productos 
+    <link rel="stylesheet" href="{% static '/sales/productos.css' %}">
 
-{% endblock title %}
+{% endblock css %}
 
 {% block content %}
 
-    <h1 class="color">Productos</h1>
+    <div>
+
+        <h1 class="color rojo">Productos</h1>
+
+    </div>
 
 {% endblock content %}

@@ -1,32 +1,13 @@
 {% load static %}
+
 {% url 'productos:productos' as productos %}
-<nav class="gris navbar navbar-expand-lg navbar-light bg-light">
-    <div class="azul container-fluid">
-        <a class="rojo navbar-brand" href="{{productos}}"><img src="{% static 'logo.png' %}" class="logo-sm"></a>
-        <div class="verde collapse navbar-collapse" id="navbarNav">
-            <ul class="morado navbar-nav">
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link {% if request.path == productos %} active {% endif %} " href="{{productos}}">Productos</a>
-                </li>
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link" href="">Otros</a>
-                </li>
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link" href="">Otros</a>
-                </li>
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link" href="">Otros</a>
-                </li>
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link" href="">Otros</a>
-                </li>
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link" href="">Otros</a>
-                </li>
-                <li class="rosa nav-item">
-                    <a class="negro color nav-link" href="">Otros</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+
+<div class="nav">
+
+    <a href="{{productos}}" class="Lfavicon"><img src="{% static 'logo.png' %}" class="favicon"></a>
+
+    <a class="link" href="{{productos}}">Productos</a>
+    <a class="link" href="">Otros 1</a>
+    <a class="link" href="">Otros 2</a>
+
+</div>

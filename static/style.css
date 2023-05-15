@@ -1,56 +1,23 @@
-body {
+*{ margin: 0; padding: 0;}
+body {background-color: rgb(44, 44, 44);}
 
- background-color: rgb(93, 93, 93);
+.nav{
 
+    border: solid 1px red;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .link{
+        border: solid 1px rgb(0, 0, 128);
+    }
+    
+    .Lfavicon{
+
+        .favicon{
+            border: solid 1px red;
+            width: 45px;
+        }
+    }
 }
-
-/* .logo-sm {
-    height: 45px ;
-    width: auto ;
-}
-
-.amarillo {margin: 3px; border: 1px dashed rgb(255, 242, 0)}
-.gris {margin: 3px; border: 1px dashed rgb(118, 118, 118)}
-.azul {margin: 3px; border: 1px dashed rgb(0, 38, 255)}
-.rojo {margin: 3px; border: 1px dashed rgb(255, 0, 0)}
-.verde {margin: 3px; border: 1px dashed rgb(76, 254, 0)}
-.morado {margin: 3px; border: 1px dashed rgb(179, 0, 255)}
-.rosa {margin: 3px; border: 1px dashed rgb(255, 0, 191)} */
-
-/* .color {
-    color: white
-} */
-
-/*
-.not_visible{
-    display: none
-}
-
-.dz {
-    margin: 3px; border-style: dashed;
-    margin: 3px; border-radius: 5px;
-    margin: 3px; border-color: #ddd;
-    transition: .5s;
-}
-
-.dz:hover {
-    background-color: #f5f5f5;
-}
-
-.avatar-sm {
-    height: 40px;
-    width: 40px;
-    margin: 3px; border-radius: 50%;
-}
-
-.avatar-big {
-    height: 200px;
-    width: 200px;
-    margin: 3px; border-radius: 50%;
-}
-
-.logo-sm {
-    height: 45px;
-    width: auto;
-}
-*/
