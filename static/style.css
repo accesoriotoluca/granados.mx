@@ -1,23 +1,34 @@
-*{ margin: 0; padding: 0;}
+*{box-sizing: border-box; margin: 0; padding: 0;}
 body {background-color: rgb(44, 44, 44);}
 
-.nav{
+.contenedor{
 
-    border: solid 1px red;
     display: grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
-    align-items: center;
+    grid-template: 1fr / repeat(2,1fr);
+    border: solid 1px purple;
 
-    .link{
-        border: solid 1px rgb(0, 0, 128);
-    }
-    
     .Lfavicon{
+        border: solid 1px red;
 
         .favicon{
-            border: solid 1px red;
+            border: solid 1px blue;
             width: 45px;
+            
         }
     }
+
+    .nav{
+        display: grid;
+        grid-auto-flow: column;
+        border: solid 1px yellow;
+        justify-content: ;
+        /* place-content: center space-evenly; */
+
+
+        .Lnav{
+            border: solid 1px rgb(0, 0, 128);
+        }
+    
+    }
+
 }

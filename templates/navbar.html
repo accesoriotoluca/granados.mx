@@ -2,12 +2,16 @@
 
 {% url 'productos:productos' as productos %}
 
-<div class="nav">
+<div class="contenedor">
 
     <a href="{{productos}}" class="Lfavicon"><img src="{% static 'logo.png' %}" class="favicon"></a>
 
-    <a class="link" href="{{productos}}">Productos</a>
-    <a class="link" href="">Otros 1</a>
-    <a class="link" href="">Otros 2</a>
+    <div class="nav">
+
+        <a class="Lnav" href="{{productos}}">Productos</a>
+        <a class="Lnav" href="">Otros 1</a>
+        <a class="Lnav" href="">Otros 2</a>
+
+    </div>
 
 </div>
