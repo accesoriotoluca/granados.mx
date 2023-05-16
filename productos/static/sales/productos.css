@@ -1,6 +1,7 @@
-
-.contenedor {
-
-    color: rgb(185, 36, 36)
+.contenedor-productos {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid white;
+    display: grid;
     
 }
