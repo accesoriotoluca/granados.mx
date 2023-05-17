@@ -5,13 +5,15 @@ body {background-color: rgb(44, 44, 44);}
 
     display: grid;
     grid-template: 1fr / repeat(2,1fr);
-    border: solid 1px purple;
+    margin: 20px auto;
+    width: 90%;
+    /* border: solid 1px purple; */
 
     .Lfavicon{
-        border: solid 1px red;
+        /* border: solid 1px red; */
 
         .favicon{
-            border: solid 1px blue;
+            /* border: solid 1px blue; */
             width: 45px;
             
         }
@@ -20,13 +22,14 @@ body {background-color: rgb(44, 44, 44);}
     .nav{
         display: grid;
         grid-auto-flow: column;
-        border: solid 1px yellow;
-        justify-content: ;
-        /* place-content: center space-evenly; */
+        /* border: solid 1px yellow; */
+        place-content: center end;
+        gap: 1.5em;
 
 
         .Lnav{
-            border: solid 1px rgb(0, 0, 128);
+            color: white;
+            /* border: solid 1px rgb(0, 0, 128); */
         }
     
     }
